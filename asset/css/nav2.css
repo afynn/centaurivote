@@ -1,0 +1,145 @@
+/* Nav */
+.bg-nav {
+    background-color: rgb(104,180,228);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-side {
+    background-color: #293241;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-nav{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text-nav:hover{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text-nav-logout a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: .4000rem;
+    padding-bottom: .4000rem;
+    padding-right: .9000rem;
+    padding-left: .9000rem;
+    margin-right: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    background-color: #FF5959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.text-nav-logout a:hover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: .4000rem;
+    padding-bottom: .4000rem;
+    padding-right: .9000rem;
+    padding-left: .9000rem;
+    margin-right: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    background-color: #af3333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.text-side p,span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.menu-side a{
+    text-decoration: none;
+}
+
+.menu-side:hover{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    height: auto;
+    width: 230px;
+    background: #3A69B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#sidenav {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 70vw;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all .3s ease-in-out;
+    transform: translate(-150%, 0px);
+    -webkit-transform: translate(-150%, 0px);
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -ms-transform: translate(-150%, 0px);
+}
+
+#sidenav.active {
+    transition: all .3s ease-in-out;
+    transform: translate(0%, 0px);
+    -webkit-transform: translate(0%, 0px);
+    -ms-transform: translate(0%, 0px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+}
+
+/* ######## END FOCUS CSS CODE HERE */
+
+.burger {
+    height: 16px
+}
+.burger span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+}
+.pointer {
+    cursor: pointer;
+}
+.close {
+    width: 23px;
+    height: 23px;
+}
+.cross {
+    height: 23px;
+    width: 2px;
+    border-radius: 3px;
+}
+.cross.left {
+    transform: rotate(45deg);
+}
+.cross.right {
+    transform: rotate(-45deg);
+}
+.align-middle {
+    vertical-align: middle
+}

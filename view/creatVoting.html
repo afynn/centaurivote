@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Vote</title>
+    <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../asset/css/nav2.css">
+    <link rel="stylesheet" href="../asset/css/creatVoting.css">
+    <link rel="stylesheet" href="https://unpkg.com/ace-css/css/ace.min.css">
+</head>
+
+<body>
+    <!-- Nav header -->
+    <header class="bg-nav px2 py1 m0 flex items-center white">
+        <div class="burger pointer flex flex-column justify-between mr2">
+            <span class="bg-white"></span>
+            <span class="bg-white"></span>
+            <span class="bg-white"></span>
+        </div>
+        <a class="text-nav" href="userHome.html">CentaVote</a>
+        <nav class="ml-auto">
+            <ul class="list-reset m0 h5">
+                <li class="nav-item text-nav-logout">
+                    <a class="" href="index.html">Logout</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ######## START FOCUS SIDEBAR CODE HERE -->
+    <div id="sidenav" class="fixed z4 top-0 left-0 bg-side p2 text-side">
+        <div class="close flex items-center justify-center relative pointer mb2 right">
+            <div class="absolute cross bg-gray left"></div>
+            <div class="absolute cross bg-gray right"></div>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <div class="bg-white circle mb2 flex items-center justify-center white"
+                        style="width: 68px;height: 68px"></div>
+                </td>
+                <td>
+                    <p class="m2 text-side">User Name <br> 2021</p>
+                </td>
+            </tr>
+        </table>
+
+        <ul class="list-reset">
+            <a href="userHome.html">
+                <svg width="20" height="20" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 14.957L14.4042 0.456844C15.0094 -0.152281 15.9906 -0.152281 16.5958 0.456844L31 14.957H27.9V27.4397C27.9 28.3014 27.206 29 26.35 29H18.6V18.0777H12.4V29H4.65C3.79396 29 3.1 28.3014 3.1 27.4397V14.957H0Z" fill="white"/>
+            </svg>                    
+            <span class="ml2 align-middle"> Home </span>
+            </a>
+            </li>
+            <li class="pointer mb2 menu-side pl2 pt1 pb1">
+                <svg width="20" height="20" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.45 0C5.72208 0 2.7 2.98477 2.7 6.66667C2.7 10.3486 5.72208 13.3333 9.45 13.3333C13.1779 13.3333 16.2 10.3486 16.2 6.66667C16.2 2.98477 13.1779 0 9.45 0ZM5.4 6.66667C5.4 4.45753 7.21325 2.66667 9.45 2.66667C11.6868 2.66667 13.5 4.45753 13.5 6.66667C13.5 8.87581 11.6868 10.6667 9.45 10.6667C7.21325 10.6667 5.4 8.87581 5.4 6.66667Z" fill="white"/>
+                    <path d="M20.1264 6.9577C19.7466 6.76645 19.3263 6.66675 18.9 6.66675V4.00008C19.7527 4.00008 20.5932 4.19942 21.3528 4.58193C21.4365 4.62406 21.5189 4.66828 21.6 4.71453C22.2553 5.08818 22.8247 5.59425 23.2704 6.20074C23.7712 6.8823 24.1015 7.67129 24.2342 8.50316C24.3669 9.33502 24.2983 10.1861 24.034 10.9867C23.7696 11.7874 23.3171 12.5148 22.7134 13.1095C22.1097 13.7042 21.372 14.1492 20.5606 14.4082C19.8386 14.6387 19.0766 14.7159 18.3243 14.6363C18.2312 14.6264 18.1382 14.6141 18.0455 14.5995C17.2041 14.4663 16.4067 14.1384 15.7182 13.6425L15.7168 13.6415L17.3084 11.4874C17.6528 11.7356 18.0518 11.8997 18.4727 11.9663C18.8937 12.033 19.3246 12.0002 19.7303 11.8707C20.1359 11.7412 20.5048 11.5187 20.8066 11.2214C21.1085 10.924 21.3347 10.5603 21.4669 10.16C21.5991 9.7597 21.6334 9.33418 21.567 8.91826C21.5007 8.50234 21.3355 8.10785 21.0851 7.76708C20.8347 7.42632 20.5062 7.14896 20.1264 6.9577Z" fill="white"/>
+                    <path d="M24.2974 24C24.2974 23.2999 24.1578 22.6068 23.8866 21.96C23.6153 21.3132 23.2178 20.7256 22.7166 20.2306C22.2154 19.7355 21.6204 19.3429 20.9655 19.075C20.3107 18.8071 19.6088 18.6692 18.9 18.6692V16C19.8208 16 20.7338 16.1551 21.6 16.4575C21.7344 16.5045 21.8677 16.555 21.9997 16.609C22.9825 17.011 23.8754 17.6003 24.6276 18.3431C25.3797 19.086 25.9764 19.9679 26.3834 20.9385C26.4381 21.0689 26.4892 21.2006 26.5368 21.3333C26.843 22.1888 27 23.0906 27 24H24.2974Z" fill="white"/>
+                    <path d="M18.9 24H16.2C16.2 20.3181 13.1779 17.3333 9.45 17.3333C5.72208 17.3333 2.7 20.3181 2.7 24H0C0 18.8453 4.23091 14.6667 9.45 14.6667C14.6691 14.6667 18.9 18.8453 18.9 24Z" fill="white"/>
+                </svg>                                        
+                <span class="ml2 align-middle">Profile</span>
+            </li>
+            <li class="pointer mb2 menu-side pl2 pt1 pb1">
+                <img src="../asset/image/join.png" alt="" style="height: 30px; width: 30px;">                                     
+                <span class="ml2 align-middle">Join Vote</span>
+            </li>
+        </ul>
+    </div>
+    <!-- ######## END FOCUS SIDEBAR CODE HERE -->
+
+    <main class="">
+        <div class="container">
+            <div class="kotak">
+                <div class="isi">
+                    <div class="buatVote mt4">
+                    </div>
+                    <br><br><br>
+                    <h1>Buat Voting</h1>
+                    <form class="creat-voting">
+                        <div class="mb-3">
+                            <label for="exampleInputnJudul1" class="form-label">Judul</label>
+                            <input type="judul" class="form-control" id="exampleInputJudul1" aria-describedby="judulHelp">
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPertanyaan1" class="form-label">Pertanyaan</label>
+                          <input type="pertanyaan" class="form-control" id="exampleInputPertanyaan1" aria-describedby="pertanyaanHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputNominator1" class="form-label">Nominator</label>
+                          <input type="nominator" class="form-control" id="exampleInputNominator1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputNominator1" class="form-label">Nominator</label>
+                            <input type="nominator" class="form-control" id="exampleInputNominator1">
+                          </div>
+                        <div class="buatBtn">
+                            <a type="submit" class="btn btn-primary" href="userHome.html">Buat</a>
+                        </div>
+                      </form>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ######## START FOCUS JS CODE HERE -->
+    <script>
+        let burger = document.querySelector('.burger');
+        let close = document.querySelector('.close');
+        let sidenav = document.querySelector('#sidenav');
+
+        // Burger click function
+        burger.addEventListener('click', function () {
+            sidenav.classList.add('active');
+        });
+        // Close click function
+        close.addEventListener('click', function () {
+            sidenav.classList.remove('active');
+        });
+    </script>
+    <!-- ######## /END FOCUS JS CODE HERE -->
+
+
+    <script src="../asset/bootstrap/js/jquery.js"></script>
+    <script src="../asset/bootstrap/js/popper.js"></script>
+    <script src="../asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
